@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    img {
+      @apply w-full
+    }
+
+    .section {
+      @apply  mx-auto py-24 md:px-6 w-[80%]
+    }
+    .widesection{
+      @apply py-24 
+    }
+    .smallsection {
+      @apply  py-5 px-5
+    } 
+    
+    .animate-slide:hover {
+      animation-play-state: paused;
+    }
+  }
+.domain-style{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @apply p-3 flex gap-2 items-center mb-2 text-xl cursor-pointer tracking-wide ;
+}
+.domain-style:hover{
+  color: white;
+  @apply bg-teal-400 font-semibold ;
+}
