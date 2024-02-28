@@ -25,12 +25,12 @@ const Home = () => {
   return (
     <div className="sm:section smallsection max-sm:pt-24" id="home">
       <div className="flex max-sm:flex-col-reverse items-center justify-center">
-        <div>
+        <div className="max-sm:flex max-sm:flex-col max-sm:items-center">
 
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
             Code to Learn.<br /> Learn to Intern.. <br /> Intern to Excel...
           </div>
-          <p className="text-sm leading-7 text-gray max-w-sm">
+          <p className="text-sm leading-7 text-gray max-w-sm  max-sm:text-center">
             Empowering Future Tech Leaders: Gain Hands-On Experience Across Diverse Fields with Our Internships.
           </p>
           <div className="mt-6">
