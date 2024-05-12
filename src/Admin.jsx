@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { v4 } from 'uuid';
-import { imgDB, courseDB } from '../firebaseConfig'
+import { imgDB, courseDB } from './firebaseConfig'
 import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
 import { addDoc, collection, getDocs } from 'firebase/firestore';
-const Testing = () => {
+const Admin = () => {
   const [category, setCategory] = useState("");
   const [title, setTitle] = useState("");
   const [participants,setParticipants]=useState("");
@@ -72,4 +72,4 @@ const Testing = () => {
   )
 }
 
-export default Testing
+export default Admin
