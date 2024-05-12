@@ -6,18 +6,22 @@ import {
   Contact,
   Courses,
   Footer,
+  Testing
 } from "./components/index";
+
+
 
 function App() {
   return (
     <div className="font-Poppins bg-Solitude">
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <About />
       <Courses />
       <Teacher />
       <Contact />
-      <Footer />
+      <Footer /> */}
+      <Testing />
     </div>
   );
 }

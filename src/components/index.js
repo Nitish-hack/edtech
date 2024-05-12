@@ -5,5 +5,6 @@ import Courses from "./container/Course/Courses";
 import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import Navbar from "./Navbar/Navbar";
+import Testing from "./Testing";
 
-export { Navbar, Home, About, Courses, Teacher,Contact, Footer };
+export { Navbar, Home, About, Courses, Teacher,Contact, Footer,Testing};
